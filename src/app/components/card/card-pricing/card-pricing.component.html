@@ -1,1 +1,12 @@
-<p>card-pricing works!</p>
+<div class="card-pricing__container">
+  <h3 class="card-pricing__title">Play it Now!</h3>
+  <div class="card-pricing__value">
+    <div class="card-pricing__value__console">
+      <span>|</span>
+      <p>{{ gameType }}</p>
+    </div>
+    <span class="card-pricing__value__game-price"
+      ><p>{{ convertToBRL(gamePrice) }}</p></span
+    >
+  </div>
+</div>
