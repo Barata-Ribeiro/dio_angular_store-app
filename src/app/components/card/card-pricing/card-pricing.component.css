@@ -9,7 +9,7 @@
   height: 4.375rem;
   padding: 0.625rem;
 
-  background-color: #0d0d0d;
+  background-color: hsla(0, 0%, 5%, 0.8);
   color: antiquewhite;
   font-family: "Calibri", sans-serif;
 }

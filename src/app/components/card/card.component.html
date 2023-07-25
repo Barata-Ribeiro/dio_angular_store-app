@@ -1,9 +1,5 @@
 <a href="" class="card__container">
-  <img
-    class="card__img"
-    src="assets/bt-5.jpg"
-    alt="Cover from the Battlefield 5 game"
-  />
-  <app-card-label gameLabel="Digital" />
-  <app-card-pricing />
+  <img class="card__img" [src]="gameCover" [alt]="gameCoverAlt" />
+  <app-card-label [gameLabel]="gameLabel" />
+  <app-card-pricing [gameType]="gameType" [gamePrice]="gamePrice" />
 </a>
