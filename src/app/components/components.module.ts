@@ -4,9 +4,10 @@ import { RouterModule } from '@angular/router';
 
 import { CardComponent } from './card/card.component';
 import { CardLabelComponent } from './card/card-label/card-label.component';
+import { CardPricingComponent } from './card/card-pricing/card-pricing.component';
 
 @NgModule({
-  declarations: [CardComponent, CardLabelComponent],
+  declarations: [CardComponent, CardLabelComponent, CardPricingComponent],
   imports: [CommonModule, RouterModule],
   exports: [CardComponent, CardLabelComponent, RouterModule],
 })

@@ -1,9 +1,9 @@
 .home__container {
-  max-width: min(76rem, 100% - 1rem);
-  margin: 3.125rem auto;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
   display: flex;
   justify-content: space-around;
   align-items: baseline;
   flex-wrap: wrap;
-  border: 1px solid white;
+  gap: 1rem;
 }
