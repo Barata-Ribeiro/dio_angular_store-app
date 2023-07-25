@@ -1,0 +1,21 @@
+.card-label__container {
+  position: absolute;
+  bottom: 5.625rem;
+  right: 0;
+}
+
+.card-label__content {
+  display: flex;
+  align-items: center;
+  background-color: #0d0d0d;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.card-label__content > p {
+  padding: 0.125rem 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white;
+}
